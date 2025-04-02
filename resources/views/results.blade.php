@@ -1,4 +1,7 @@
 {{-- resources/views/results.blade.php --}}
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,7 @@
 </head>
 <body>
     <h1>Results</h1>
-
+    
     @if($results)
         <ul>
             @foreach($results as $page => $content)
